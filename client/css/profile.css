@@ -1,0 +1,48 @@
+.profile-page {
+  padding: 40px;
+}
+
+.profile-card,
+.ticket-card {
+  background: #191927;
+  border: 1px solid #2d2d44;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.profile-card h1 {
+  margin-top: 0;
+}
+
+.ticket-card h3 {
+  margin-top: 0;
+  color: #ff4d6d;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  display: block;
+  margin-bottom: 20px;
+}
+
+.avatar-placeholder {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 50%;
+
+  background: #2d2d44;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+}

@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Регистрация</title>
-
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/register.css">
 </head>
@@ -14,9 +12,10 @@
   <header class="header">
     <nav class="nav">
       <a href="movies.html">Афиша</a>
-      <a href="profile.html">Профиль</a>
-      <a href="login.html">Войти</a>
-      <a href="register.html">Регистрация</a>
+      <a href="profile.html" id="profileLink">Профиль</a>
+      <a href="login.html" id="loginLink">Войти</a>
+      <a href="register.html" id="registerLink">Регистрация</a>
+      <button id="logoutButton" class="logout-button">Выйти</button>
     </nav>
   </header>
 
@@ -44,14 +43,10 @@
       <button type="submit">
         Зарегистрироваться
       </button>
-
       <p id="message"></p>
-
     </form>
-
   </main>
-
+  <script src="js/common.js"></script>
   <script src="js/register.js"></script>
-
 </body>
 </html>

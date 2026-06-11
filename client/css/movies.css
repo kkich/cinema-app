@@ -1,0 +1,65 @@
+.movies-page {
+  padding: 40px;
+}
+
+.movies-page h1 {
+  margin-bottom: 24px;
+}
+
+.filters {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.filters select {
+  max-width: 220px;
+}
+
+.movies-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.movie-card {
+  background: #191927;
+  border: 1px solid #2d2d44;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.movie-content {
+  padding: 20px;
+}
+
+.movie-content h2 {
+  margin-top: 0;
+}
+
+.movie-content p {
+  margin: 8px 0;
+}
+
+.movie-price {
+  color: #ff4d6d;
+  font-weight: bold;
+}
+.buy-form {
+  margin-top: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.buy-message {
+  min-height: 20px;
+  margin: 0;
+}

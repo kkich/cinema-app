@@ -64,3 +64,14 @@ input::placeholder {
   margin-top: 12px;
   font-size: 14px;
 }
+
+.logout-button {
+  background: transparent;
+  padding: 0;
+  color: #ffffff;
+}
+
+.logout-button:hover {
+  background: transparent;
+  color: #ff4d6d;
+}
