@@ -11,6 +11,12 @@
   margin-bottom: 20px;
 }
 
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .profile-card h1 {
   margin-top: 0;
 }
@@ -23,26 +29,29 @@
 .avatar {
   width: 150px;
   height: 150px;
-
   object-fit: cover;
-
   border-radius: 50%;
+  flex-shrink: 0;
+}
 
-  display: block;
+#avatarInput {
   margin-bottom: 20px;
 }
 
 .avatar-placeholder {
   width: 150px;
   height: 150px;
-
   border-radius: 50%;
-
   background: #2d2d44;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

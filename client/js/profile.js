@@ -38,9 +38,11 @@ async function loadProfile() {
             : '<div class="avatar-placeholder">Нет фото</div>'
         }
 
-        <h1>Профиль</h1>
-        <p><strong>ФИО:</strong> ${data.user.full_name}</p>
-        <p><strong>Логин:</strong> ${data.user.username}</p>
+        <div class="profile-info">
+          <h1>Профиль</h1>
+          <p><strong>ФИО:</strong> ${data.user.full_name}</p>
+          <p><strong>Логин:</strong> ${data.user.username}</p>
+        </div>
       </div>
     `;
 

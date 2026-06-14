@@ -15,6 +15,10 @@ app.use(
   '/uploads',
   express.static(path.join(__dirname, 'uploads'))
 );
+app.use(
+  '/static/images',
+  express.static(path.join(__dirname, '../images'))
+);
 app.use('/api', authRoutes);
 app.use('/api', moviesRoutes);
 app.use('/api', ticketsRoutes);
